@@ -1,0 +1,58 @@
+di{
+    background-color: #00BCD4; width:100%; padding:10px
+}
+
+nav{
+    background-color:#FFAB00;
+    color:black;
+    line-height:30px;
+    width:26%;
+    float:left;
+    padding:5px;
+    list-style-type: none;
+    animation-name: slideUp;
+    animation-duration: 2.5s;
+}
+
+main{
+    background-color:#4DD0E1;
+    color:black;
+    width:72%;
+    float:left;
+    overflow:scroll;
+    animation-name: colorInMain;
+    animation-duration: 2s;
+}
+
+header{width: 99%;
+    background-color:#2172ce;
+    height:40px;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size:30px}
+
+#message{text-align: center;}
+
+video,p,input{padding:8px}
+
+.liEl:hover { 
+    background-color: #E91E63;
+}
+
+@keyframes colorInMain {
+    0%{width:99%;background-color: #E91E63;}
+}
+
+@keyframes slideUp {
+    0%{
+    margin-top: 100%;
+    }
+    60% {
+    margin-top: 100%;
+    }  
+    100% {
+    margin-top: 0%;
+    }
+}
+
